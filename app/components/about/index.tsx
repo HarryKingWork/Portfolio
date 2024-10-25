@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { calculateAge } from '../calculateAge';
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-const dob = "1990-10-10"; // Example Date of Birth (YYYY-MM-DD format)
+const dob = "1994-06-10"; // Example Date of Birth (YYYY-MM-DD format)
 const age = calculateAge(dob);
 const personalInfo = [
   {
@@ -18,27 +18,27 @@ const personalInfo = [
   },
   {
     label: 'Address',
-    value: 'Ave 11, New York, USA'
+    value: '22, Baker Street, West Central, London, United Kingdom'
   },
   {
     label: 'Email',
-    value: 'tokyo@gmail.com'
+    value: 'admin@withharry.pro'
   },
   {
-    label: 'Phone',
-    value: '+77 022 177 05 05'
+    label: 'Phone(Mobile)',
+    value: '+1 480 447 6738'
   },
   {
     label: 'Nationality',
-    value: 'USA'
+    value: 'UK'
   },
   {
     label: 'Study',
-    value: 'University of Texas'
+    value: 'University of Westminster'
   },
   {
     label: 'Degree',
-    value: 'Master'
+    value: 'Bachelor'
   },
   {
     label: 'Interest',
@@ -53,11 +53,11 @@ const personalInfo = [
 const skills = [
   {
     label: 'React.js',
-    value: 85
+    value: 90
   },
   {
     label: 'Vue.js',
-    value: 75
+    value: 80
   },
   {
     label: 'Node.js',
@@ -73,73 +73,56 @@ const language = [
     label: 'English',
     value: 90
   },
-  {
-    label: 'Russian',
-    value: 75
-  },
-  {
-    label: 'Arabic',
-    value: 90
-  },
-  {
-    label: 'French',
-    value: 65
-  },
 ]
 const education = [
   {
-    year: '2014 - 2016',
-    institute: 'Oxford University',
-    course: 'Master Degree'
-  },
-  {
-    year: '2010 - 2014',
-    institute: 'Texas University',
+    year: '2012 - 2016',
+    institute: 'University Of Westminster',
     course: 'Bachelor Degree'
-  },
-  {
-    year: '2008 - 2010',
-    institute: 'Simone College',
-    course: 'Associate Degree'
   },
 
 ]
 const experience = [
   {
-    year: '2018 - Now',
-    org: 'Envato Market',
-    post: 'Exclusive Author'
+    year: '2023 - Now',
+    org: 'WithHarry',
+    post: 'Software Team Lead'
   },
   {
-    year: '2016 - 2018',
-    org: 'RGB Studio',
-    post: 'UX Designer'
+    year: '2022 - 2023',
+    org: 'Bloomberg',
+    post: 'Software Developer'
   },
   {
-    year: '2012 - 2016',
-    org: 'Innovations Park',
-    post: 'Web Designer'
+    year: '2019 - 2021',
+    org: 'Monzo',
+    post: 'Senior Software Engineer'
+  },
+  {
+    year: '2017 - 2019',
+    org: 'Revolut',
+    post: 'Software Developer'
   },
 
 ]
 
 const testimonials = [
   {
-    quote: 'Beautiful minimalist design and great, fast response with support. Highly recommend. Thanks Marketify!',
+    quote: 'Work hard and Dream Big.',
     name: 'Alexander Walker',
-    post: 'Graphic Designer',
+    post: 'Full Stack Developer',
     photo: '/images/1.jpg'
   },
   {
-    quote: 'Beautiful minimalist design and great, fast response with support. Highly recommend. Thanks Marketify!',
-    name: 'Isabelle Smith',
-    post: 'Content Manager',
+    quote: 'Quality over Quantity',
+    name: 'Alina Justice',
+    post: 'SEO',
     photo: '/images/2.jpg'
   },
   {
-    quote: 'Beautiful minimalist design and great, fast response with support. Highly recommend. Thanks Marketify!',
-    name: 'Baraka Clinton',
-    post: 'English Teacher',
+    quote: 'Where words fail, music speaks.',
+    name: 'Abdul Rehman',
+    post: 'Graphic Designer',
     photo: '/images/3.jpg'
   },
 ]
@@ -161,8 +144,8 @@ function About() {
         </div>
         <div className='divide-y divide-white/10'>
           <div className='py-10'>
-            <h2 className='text-2xl font-bold text-white'>Jordan King</h2>
-            <p className="text-lg text-white/50">Web Developer</p>
+            <h2 className='text-2xl font-bold text-white'>Harry King</h2>
+            <p className="text-lg text-white/50">Team Lead</p>
           </div>
           <div className='py-10'>
             <p className='text-white/60 leading-relaxed'>

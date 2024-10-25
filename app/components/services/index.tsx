@@ -6,32 +6,32 @@ import Image from 'next/image'
 const servicelist = [
     {
         title: 'Web Design',
-        short: 'Web development is the most famous job in the world and it is very interesting',
+        short: 'A web designer creates the visual layout and user experience of websites.',
         thumb: '/images/news-1.jpg'
     },
     {
-        title: 'Content Writing',
-        short: 'Web development is the most famous job in the world and it is very interesting',
+        title: 'Full Stack Web Develop',
+        short: 'A Full Stack Web Developer handles both front-end and back-end development, managing everything from user interfaces to server-side logic.',
         thumb: '/images/news-2.jpg'
     },
     {
-        title: 'Brand Identity',
-        short: 'Web development is the most famous job in the world and it is very interesting',
+        title: 'Search Engine Optimization',
+        short: 'SEO, or Search Engine Optimization, involves strategies and techniques to improve a website visibility in search engine results.',
         thumb: '/images/news-3.jpg'
     },
     {
-        title: 'Live Chat',
-        short: 'Web development is the most famous job in the world and it is very interesting',
+        title: 'Blockchain Develop',
+        short: 'A Blockchain Developer specializes in building and implementing blockchain-based solutions, focusing on secure and decentralized applications.',
         thumb: '/images/news-4.jpg'
     },
     {
-        title: 'After Effect',
-        short: 'Web development is the most famous job in the world and it is very interesting',
+        title: 'Database Administration',
+        short: 'Database Administration involves managing and maintaining databases to ensure their performance, security, and reliability.',
         thumb: '/images/news-1.jpg'
     },
     {
-        title: 'Mobile App',
-        short: 'Web development is the most famous job in the world and it is very interesting',
+        title: 'Software Test',
+        short: 'A tester, or software tester, evaluates applications to identify bugs and ensure quality before release.',
         thumb: '/images/news-2.jpg'
     },
 ]

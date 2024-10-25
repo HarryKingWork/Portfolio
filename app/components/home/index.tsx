@@ -14,12 +14,12 @@ const social = [
     {
         icon: <Xicon className="size-4" />,
         label: 'X.com',
-        url: '#'
+        url: 'https://x.com/HarryK1ng62657'
     },
     {
         icon: <Linkedinicon className="size-4" />,
-        label: 'X.com',
-        url: '#'
+        label: 'linkedin.com',
+        url: 'https://www.linkedin.com/in/harry-king-454611333/'
     },
 ]
 
@@ -31,7 +31,7 @@ function Home() {
                     <div className="max-w-4xl mx-auto py-10 flex flex-col md:grid md:grid-cols-12 gap-10">
                         <div className='col-span-4'>
                         <div className='border-8 border-gray-900 ring-1 ring-white/20 overflow-hidden max-w-full'>
-                            <Image src="/images/jordan-king.png" width={500} height={500} alt='' className='h-auto object-cover' />
+                            <Image src="/images/harry-king.png" width={500} height={500} alt='' className='h-auto object-cover' />
                         </div></div>
                         <div className='col-span-8'>
                             <div className='flex flex-col gap-5 max-w-lg'>

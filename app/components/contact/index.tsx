@@ -67,13 +67,13 @@ const Contact = () => {
         </div>
         <div className='pt-20 flex justify-between gap-5 flex-wrap'>
         <div className='flex gap-4'>
-         <Whatsappfillicon className="size-6" /> <p className='text-white font-semibold hover:opacity-60 ease-in-out duration-200'><Link href={'https://wa.me/+919828368878'} >+91-9828368878</Link></p>
+         <Whatsappfillicon className="size-6" /> <p className='text-white font-semibold hover:opacity-60 ease-in-out duration-200'><Link href={'https://wa.me/+18165524349'} >+1-8165524349</Link></p>
         </div>
         <div className='flex gap-4'>
-         <Gmailicon className="size-6" /> <p className='text-white font-semibold hover:opacity-60 ease-in-out duration-200'><Link href={'mailto:kshekh@gmail.com'} >kshekh@gmail.com</Link></p>
+         <Gmailicon className="size-6" /> <p className='text-white font-semibold hover:opacity-60 ease-in-out duration-200'><Link href={'mailto:harryteam@withharry.pro'} >harryteam@withharry.pro</Link></p>
         </div>
         <div className='flex gap-4'>
-         <Telegramfillicon className="size-6" /> <p className='text-white font-semibold hover:opacity-60 ease-in-out duration-200'><Link href={'https://t.me/Jordn_KinG'} >@Jordn_KinG</Link></p>
+         <Telegramfillicon className="size-6" /> <p className='text-white font-semibold hover:opacity-60 ease-in-out duration-200'><Link href={'https://t.me/HarryKIng00'} >@HarryKIng00</Link></p>
         </div>
         </div>
 
