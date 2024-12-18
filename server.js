@@ -1,6 +1,7 @@
 const https = require('https');
 const fs = require('fs');
 const next = require('next');
+
 const dev = process.env.NODE_ENV !== 'production';
 const app = next({ dev });
 const handle = app.getRequestHandler();
